@@ -8,7 +8,7 @@
 
 > Hệ thống quản lý hệ thống phanh tái sinh trong xe điện hoặc xe hybrid nhằm tận dụng chuyển động năng thành điện năng để nạp vào pin. Hệ thống bao gồm nhiều cảm biến để đo đạc tình trạng xe và điều chỉnh phanh tái sinh.
 
- <img src="https://github.com/hthuan02/C_Cpp_Advance/blob/main/BTL2_AutosarClassic_ECU/img/regen_brake_control_in_car.jpeg" alt="Memory Layout" width="880"/>
+ <img src="https://github.com/hthuan02/Autosar_Classic_ECU/blob/main/img/regen_brake_control_in_car.jpeg" alt="Memory Layout" width="880"/>
 
  _**Nguồn ảnh**: https://community.vinfastauto.us/uncategorized/regenerative-braking-on-electric-vehicles-working-principles-and-benefits-of-application/_
 
@@ -76,7 +76,7 @@ Hệ thống quản lý phanh tái sinh (Regenerative Braking Control) được 
 ### 1. Application Layer
 Đây là tầng nằm ở trên cùng, gồm nhiều khối phần mềm ứng dụng (Software Component - SWC). Mỗi SWC thực hiện 1 chức năng cụ thể trong hệ thống ECU.
 
- <img src="https://github.com/hthuan02/C_Cpp_Advance/blob/main/BTL2_AutosarClassic_ECU/img/ECU_Task5.png" alt="Memory Layout" width="880"/>
+ <img src="https://github.com/hthuan02/Autosar_Classic_ECU/blob/main/img/ECU_Task5.png" alt="Memory Layout" width="880"/>
 
 Trong hệ thống này, tầng SWC thực hiện tính năng quản lý và điều khiển quá trình phanh tái sinh, bao gồm các chức năng như đọc dữ liệu từ cảm biến, tính toán lực phanh tái sinh, điều chỉnh các tham số liên quan, và tái nạp năng lượng vào pin. Dựa vào 2 hàm chính:
 
